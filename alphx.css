@@ -1,0 +1,97 @@
+
+#layout{
+    -fx-background-image: url("res/backgroundA.jpg");
+    -fx-background-position: center;
+    -fx-scale-x: 100%;
+    -fx-scale-y: 100%;
+}
+
+.button{
+    -fx-pref-height: 8px;
+    -fx-pref-width: 120px;
+}
+
+#reels{
+    -fx-background-color: darkorange;
+    -fx-border-color: #000000;
+    -fx-border-width: 5px;
+    -fx-arc-height: 50%;
+    -fx-arc-width: 50%;
+}
+
+
+#function {
+    -fx-scale-x: 200%;
+    -fx-scale-y: 200%;
+    -fx-text-fill: aquamarine;
+    -fx-font-family:Impact, Charcoal, sans-serif;
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #763912 0%, #763812 100%),
+            #913f24,
+            #d86e3a,
+            radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+
+#function:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #763913 0%, #903a12 100%),
+            #913f24,
+            #d86e3a,
+            radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+}
+
+#function:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+#function Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , #a30000 , 0,0,0,2 );
+}
+
+#textArea {
+
+    -fx-text-fill: #000000;
+    -fx-font-family:Impact, Charcoal, sans-serif;
+    -fx-padding: 8 15 15 15;
+    -fx-background-radius: 4;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #81827f 0%, #a5a3a3 100%),
+            #6b6e6f,
+            #403b40,
+            radial-gradient(center 50% 50%, radius 100%, #c6d1d8, #8a9dc5);
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+
+#l1{
+    -fx-background-color: #b50e00;
+    -fx-border-color: #000000;
+    -fx-border-width: 5px;
+    -fx-arc-height: 50%;
+    -fx-arc-width: 50%;
+
+}
+#l2{
+    -fx-background-color: #b50e00;
+    -fx-border-color: #000000;
+    -fx-border-width: 5px;
+    -fx-arc-height: 50%;
+    -fx-arc-width: 50%;
+
+}
+#l3{
+    -fx-background-color: #b50e00;
+    -fx-border-color: #000000;
+    -fx-border-width: 5px;
+    -fx-arc-height: 50%;
+    -fx-arc-width: 50%;
+
+}
